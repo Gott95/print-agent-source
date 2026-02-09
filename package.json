@@ -1,0 +1,16 @@
+{
+  "name": "print-agent",
+  "version": "1.0.0",
+  "main": "agent.js",
+  "bin": "agent.js",
+  "scripts": {
+    "start": "node agent.js",
+    "build": "pkg . --targets node18-win-x64 --output print-agent.exe"
+  },
+  "dependencies": {
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
