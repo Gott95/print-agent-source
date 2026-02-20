@@ -5,7 +5,8 @@
   "bin": "agent.js",
   "scripts": {
     "start": "node agent.js",
-    "build": "pkg . --targets node18-win-x64 --output print-agent.exe"
+    "build": "pkg . --targets node18-win-x64 --output print-agent.exe",
+    "smoke:test": "node smoke-test.js"
   },
   "dependencies": {
     "ws": "^8.13.0"
